@@ -6,48 +6,17 @@ host, mail.cock.li, Bypass
 host-suffix, podtrac.com, Bypass
 host, app.smartmailcloud.com, Bypass
 host, www.googleapis.com, Bypass
-host, login.live.com, direct
-host-keyword, report.netgear.glassboxdigital.io, direct
-host-keyword, genieremote.netgear.com, direct
-host-keyword, asuscomm.com, direct
 host-keyword, libsyn.com, Bypass
 host-suffix, toktik.app, Bypass
-host-suffix, v2ex.com, direct
-host, i.v2ex.co, Guard
 host-keyword, javbus, Bypass
 host, dcs.megaphone.fm, Bypass
 host, traffic.megaphone.fm, Bypass
-host-keyword, img.alicdn.com, reject
-host-keyword, tmea116.oss-cn-beijing.aliyuncs, reject
-host-suffix, hngzsb.com, reject
-host-suffix, tu.ante88.com, reject
-;ip-cidr, 8.8.8.8/32, proxy
-;host, boxjs.com, proxy
-host-suffix, c.deployads.com, reject
-host-suffix, ntt-co-jp.club, direct
 host, s.youtube.com, Bypass
-host-suffix, bkimg.cdn.bcebos.com, reject
-#USER-AGENT,Spotify*, Spotify
-#DOMAIN-SUFFIX,pscdn.co, Spotify
-#DOMAIN-SUFFIX,scdn.co, Spotify
-#DOMAIN-SUFFIX,spotify.com, Spotify
-#DOMAIN-SUFFIX,spoti.fi, Spotify
-#user-agent, Spotify*, Spotify
 host-suffix, pca.st, Bypass
 host-keyword, soundon, Bypass
 host-keyword, pocketcasts, Bypass
 user-agent, reeder*, Bypass
 user-agent, Inoreader*, Bypass
 host-keyword, inoreader, Bypass
-host, ads.mopub.com, reject
-host-suffix, js.dilidd.com, reject
-host, static.alookbrowser.com, reject
-;host-suffix, adashx, reject
-;host-keyword, h-adashx, reject
-
 user-agent, PocketCasts, Bypass
 host-suffix, rss.soundon.fm, Bypass
-host-suffix, iconfactory.com, reject
-host-keyword, ad.adpon.jp, reject
-;host-suffix, ehg-youtube.hitbox.com, reject
-;user-agent, ?abc*, proxy
