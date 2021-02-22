@@ -21,3 +21,4 @@ host-keyword, inoreader, Bypass
 user-agent, PocketCasts, Bypass
 host-suffix, rss.soundon.fm, Bypass
 host, v2ex.com, Bypass
+host, pincong.rocks, Bypass
