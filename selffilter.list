@@ -24,3 +24,4 @@ host, v2ex.com, Bypass
 host, pincong.rocks, Bypass
 host-keyword, tandem.net, Bypass
 host-keyword, podbean, Bypass
+host, raw.githubusercontent.com, Bypass
