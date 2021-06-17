@@ -51,3 +51,4 @@ host, paofans.com, Bypass
 host, signal.org, Bypass
 host, textsecure-service.whispersystems.org, Bypass
 host-suffix, services.mozilla.com, Bypass
+host-suffix, technews.tw, Bypass
