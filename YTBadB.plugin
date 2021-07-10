@@ -1,0 +1,6 @@
+[URL Rewrite]
+ctier=[A-Z] url 302 ctier=A
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
+
+[MITM]
+hostname = *.googlevideo.com
