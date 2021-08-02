@@ -4,7 +4,14 @@ host, ar-video.storage.googleapis.com, Bypass
 host, api1.live.tandem.net, Bypass
 host, mail.cock.li, Bypass
 host-suffix, podtrac.com, Bypass
+#spark mail
 host, app.smartmailcloud.com, Bypass
+HOST-SUFFIX,amplitude.com, Bypass
+HOST-SUFFIX,firebaseio.com, Bypass
+HOST-SUFFIX,hockeyapp.net, Bypass
+HOST-SUFFIX,readdle.com, Bypass
+HOST-SUFFIX,smartmailcloud.com, Bypass
+
 host, www.googleapis.com, Bypass
 host-keyword, libsyn.com, Bypass
 host-suffix, toktik.app, Bypass
