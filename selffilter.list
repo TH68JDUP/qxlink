@@ -61,3 +61,5 @@ host-suffix, services.mozilla.com, Bypass
 host-suffix, technews.tw, Bypass
 host-suffix, mastodon.social, Bypass
 host-suffix, send-anywhere.com, Bypass
+host-keyword, megaphone, Bypass
+host-keyword, pdst, Bypass
