@@ -1,4 +1,5 @@
-ud-chat.signal.org
-chat.signal.org
-cdn.signal.org
-storage.signal.org
+host-suffix, storage.signal.org, proxy
+host-suffix, cdn.signal.org, proxy
+host-suffix, chat.signal.org, proxy
+host-suffix, ud-chat.signal.org, proxy
+host-suffix, signal.org, proxy
