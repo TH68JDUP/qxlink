@@ -1,7 +1,7 @@
 hostname = *.google.com.tw,*.google.com
 
 #wk (Wikipedia中文)
-^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
+^https:\/\/[\w-]+\.google\.com\.?t?w?\/?c?o?m?p?l?e?t?e?/search\?q=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
 
 #wiki (Wikipedia)
 ^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$2
