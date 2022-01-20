@@ -2,10 +2,10 @@ hostname = *.google.com.tw,*.google.com
 
 ^https:\/\/[\w-]+\.google\.com\.tw url 302 https://zh.wikipedia.org/wiki/
 #wk (Wikipedia中文)
-^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search?q=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
+^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
 
 #wiki (Wikipedia)
-^https:\/\/w+\.google\.com(\.tw)?(\/complete)?/search?q=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$1
+^https:\/\/w+\.google\.com(\.tw)?(\/complete)?/search\?q=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$1
 
 #sof (Stack Overflow)
 ^https:\/\/w+\.google\.com(\.tw|\/complete)\/search?q=sof\+([^&]+) url 302 https://stackoverflow.com/search?q=$2
