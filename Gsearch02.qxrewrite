@@ -1,4 +1,8 @@
 hostname = *.google.com.tw,*.google.com
+
+# Baidu
+^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=bd\+([^&]+)&.* url 302 https://m.baidu.com/s?word=$3
+
 # wk (Wikipedia中文)
 ^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=wk\+([^&]+)&.* url 302 https://zh.wikipedia.org/wiki/$3
 
