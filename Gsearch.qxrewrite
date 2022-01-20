@@ -1,5 +1,5 @@
 #wk (Wikipedia中文)
-^https:\/\/w+\.google\.com((\.tw)|(\/complete))\/search?q=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
+^https:\/\/google\.com((\.tw)|(\/complete))\/search?q=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
 
 #wiki (Wikipedia)
 ^https:\/\/w+\.google\.com(\.tw|\/complete)\/search?q=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$2
@@ -58,4 +58,4 @@
 # gg(Google)
 ^https:\/\/w+\.google\.com(\.tw|\/complete)\/search?q=gg\+([^&]+) url 302 https://www.google.com/search?q=$2
 
-hostname = www.google.com.tw, www.google.com
+hostname = google.com.tw, google.com
