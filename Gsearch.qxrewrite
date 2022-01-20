@@ -58,4 +58,4 @@
 # gg(Google)
 ^https:\/\/w+\.google\.com(\.tw|\/complete)\/search?q=gg\+([^&]+) url 302 https://www.google.com/search?q=$2
 
-hostname = www.google.com.tw
+hostname = www.google.com.tw, www.google.com
