@@ -1,0 +1,23 @@
+#hostname
+hostname = education.github.com, license.pdfexpert.com, api.faceapp.io,59.110.149.231, 129.211.156.213, *.dushu365.com, buy.itunes.apple.com
+
+#Receipt
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/TH68JDUP/qxlink/master2/jscript/Receipt.js
+
+#workingcopy
+^https:\/\/education\.github\.com\/api\/user$ url script-response-body https://raw.githubusercontent.com/TH68JDUP/qxlink/master2/jscript/workingcopy.js
+
+#白描
+^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser url script-response-body https://raw.githubusercontent.com/lcmigg/Surge/master/Script/Baimiao.js
+
+#faceapp
+^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials url script-response-body https://raw.githubusercontent.com/lcmigg/Surge/master/Script/faceapp.js
+
+#微信读书
+^https?:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary.* url script-response-body https://raw.githubusercontent.com/lcmigg/Surge/master/Script/wxread.js
+
+# > 023 樊登读书 （20201026） by ddgksf2013
+https://api.dushu.io/Album/Info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fdds.js
+
+# > 027 Document （20201108） by ddgksf2013
+https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js
