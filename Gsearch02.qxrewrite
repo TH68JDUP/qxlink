@@ -1,4 +1,6 @@
 hostname = *.google.com.tw,*.google.com
+# Startpage
+^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=sp\+([^&]+)&.* url 302 https://www.startpage.com/sp/search?q=$3
 
 # Baidu
 ^https:\/\/[\w-]+\.google\.com(\.tw)?(\/complete)?/search\?q=bd\+([^&]+)&.* url 302 https://m.baidu.com/s?word=$3
