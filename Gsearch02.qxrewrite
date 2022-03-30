@@ -1,45 +1,45 @@
 hostname = *.google.com.hk,*.google.com.tw,*.google.com
 # Startpage
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=sp\+([^&]+)&.* url 302 https://www.startpage.com/sp/search?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=sp\+([^&]+)&.* url 302 https://www.startpage.com/sp/search?q=$5
 # Baidu
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=bd\+([^&]+)&.* url 302 https://m.baidu.com/s?word=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=bd\+([^&]+)&.* url 302 https://m.baidu.com/s?word=$5
 # wk (Wikipedia中文)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wk\+([^&]+)&.* url 302 https://zh.wikipedia.org/wiki/$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wk\+([^&]+)&.* url 302 https://zh.wikipedia.org/wiki/$5
 # wiki (Wikipedia)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wiki\+([^&]+)&.* url 302 https://wikipedia.org/wiki/$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wiki\+([^&]+)&.* url 302 https://wikipedia.org/wiki/$5
 # sof (Stack Overflow)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=sof\+([^&]+)&.* url 302 https://stackoverflow.com/search?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=sof\+([^&]+)&.* url 302 https://stackoverflow.com/search?q=$5
 # yd  (有道词典)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=yd\+([^&]+)&.* url 302 https://dict.youdao.com/search?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=yd\+([^&]+)&.* url 302 https://dict.youdao.com/search?q=$5
 # trc  (Google 译至中)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=trc\+([^&]+)&.* url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=trc\+([^&]+)&.* url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$5
 # tre  (Google 译至英)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tre\+([^&]+)&.* url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tre\+([^&]+)&.* url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$5
 # trj  (Google 译至日)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=trj\+([^&]+)&.* url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=trj\+([^&]+)&.* url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$5
 # gm (Google图片)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=gm\+([^&]+)&.* url 302 https://www.google.com/search?&tbm=isch&q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=gm\+([^&]+)&.* url 302 https://www.google.com/search?&tbm=isch&q=$5
 # gh (GitHub)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=gh\+([^&]+)&.* url 302 https://github.com/search?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=gh\+([^&]+)&.* url 302 https://github.com/search?q=$5
 # tf (Google 搜索 TestFlight)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tf(\+|%20)([^&]+)&.* url 302 https://www.google.com/search?as_q=$4&as_sitesearch=testflight.apple.com
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tf(\+|%20)([^&]+)&.* url 302 https://www.google.com/search?as_q=$5&as_sitesearch=testflight.apple.com
 # wb (微博)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wb\+([^&]+)&.* url 302 https://s.weibo.com/weibo/$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wb\+([^&]+)&.* url 302 https://s.weibo.com/weibo/$5
 # wx (微信)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wx\+([^&]+)&.* url 302 https://weixin.sogou.com/weixinwap?query=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=wx\+([^&]+)&.* url 302 https://weixin.sogou.com/weixinwap?query=$5
 # jd (京东)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=jd\+([^&]+)&.* url 302 https://so.m.jd.com/ware/search.action?keyword=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=jd\+([^&]+)&.* url 302 https://so.m.jd.com/ware/search.action?keyword=$5
 # tb (淘宝)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tb\+([^&]+)&.* url 302 https://s.m.taobao.com/h5?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tb\+([^&]+)&.* url 302 https://s.m.taobao.com/h5?q=$5
 # tm (天猫)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tm\+([^&]+)&.* url 302 https://s.m.tmall.com/m/search.htm?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=tm\+([^&]+)&.* url 302 https://s.m.tmall.com/m/search.htm?q=$5
 # ytb (YouTube)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=ytb\+([^&]+)&.* url 302 https://www.youtube.com/results?search_query=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=ytb\+([^&]+)&.* url 302 https://www.youtube.com/results?search_query=$5
 # ph (PornHub)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=ph\+([^&]+)&.* url 302 https://cn.pornhub.com/video/search?search=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=ph\+([^&]+)&.* url 302 https://cn.pornhub.com/video/search?search=$5
 # bi (必应)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=bi\+([^&]+)&.* url 302 https://cn.bing.com/search?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=bi\+([^&]+)&.* url 302 https://cn.bing.com/search?q=$5
 # ddg (DuckDuckGo)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=ddg\+([^&]+)&.* url 302 https://duckduckgo.com/?ia=about&q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=ddg\+([^&]+)&.* url 302 https://duckduckgo.com/?ia=about&q=$5
 # gg(Google)
-^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=gg\+([^&]+)&.* url 302 https://www.google.com/search?q=$3
+^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=gg\+([^&]+)&.* url 302 https://www.google.com/search?q=$5
