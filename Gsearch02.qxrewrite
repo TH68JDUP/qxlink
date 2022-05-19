@@ -1,4 +1,4 @@
-hostname = *.google.com.hk,*.google.com.tw,*.google.com
+hostname = *.google.com.hk,*.google.com.tw
 # Startpage
 ^https:\/\/[\w-]+\.google\.com((\.tw)?|(\.hk)?)(\/complete)?\/search\?q=sp\+([^&]+)&.* url 302 https://www.startpage.com/sp/search?q=$5
 # Baidu
