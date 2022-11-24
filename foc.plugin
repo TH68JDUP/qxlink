@@ -1,0 +1,4 @@
+[MITM]
+hostname = buy.itunes.apple.com
+[Script]
+http-response https://buy.itunes.apple.com/verifyReceipt$ requires-body=1,script-path=https://github.com/Kingsmanvn-Official/Quantumult-X/raw/main/script/hostbuy.js
