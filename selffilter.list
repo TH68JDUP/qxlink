@@ -1,3 +1,5 @@
+host, dian.moraec.xyz, reject
+host, pic.link.topshu.xyz, reject
 #Apple Podcast
 host, podcasts.apple.com, Bypass
 host, amp-api.podcasts.apple.com, Bypass
