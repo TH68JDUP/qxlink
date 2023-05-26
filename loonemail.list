@@ -4,5 +4,5 @@ domain, apis.live.net, Ccccloud
 domain, imap.gmail.com, Ccccloud
 domain, imap-mail.outlook.com, Ccccloud
 domain, app.smartmailcloud.com, Ccccloud
-domain-suffix, googleapis.com, Ccccloud
+
 domain-suffix, outlook.com, Ccccloud
