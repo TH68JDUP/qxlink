@@ -4,5 +4,4 @@ host, apis.live.net, Ccccloud
 host, imap.gmail.com, Ccccloud
 host, imap-mail.outlook.com, Ccccloud
 host, app.smartmailcloud.com, Ccccloud
-host-suffix, googleapis.com, Ccccloud
 host-suffix, outlook.com, Ccccloud
