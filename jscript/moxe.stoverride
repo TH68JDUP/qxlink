@@ -1,0 +1,15 @@
+name: Moze
+desc: moze
+http:
+  mitm:
+    - 'api.revenuecat.com'
+  script:
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
+      name: Moze
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  Moze:
+    url: https://raw.githubusercontent.com/TH68JDUP/qxlink/master2/jscript/MOZE.js
+    interval: 86400
